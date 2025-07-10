@@ -8,9 +8,12 @@ const cors = require('cors');
 //app.use(express.static("public"));
 app.use(express.json());
 app.use(cors());
-//require('dotenv').config();
+require('dotenv').config();
 const apiKey = process.env.MAILCHIMP_API_KEY;
 const listId = process.env.MAILCHIMP_LIST_ID;
+console.log("✅ API Key Loaded:", process.env.MAILCHIMP_API_KEY ? "Yes" : "No");
+console.log("✅ List ID Loaded:", process.env.MAILCHIMP_LIST_ID ? "Yes" : "No");
+
 // app.get('/', function(req, res){
 //     // https.get(url, function(response){
 //     //      console.log('Server is running');
