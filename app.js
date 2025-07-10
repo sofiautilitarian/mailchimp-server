@@ -8,6 +8,9 @@ const cors = require('cors');
 //app.use(express.static("public"));
 app.use(express.json());
 app.use(cors());
+require('dotenv').config();
+const apiKey = process.env.MAILCHIMP_API_KEY;
+const listId = process.env.MAILCHIMP_LIST_ID;
 // app.get('/', function(req, res){
 //     // https.get(url, function(response){
 //     //      console.log('Server is running');
@@ -32,11 +35,11 @@ app.post("/", function(req, res){
     }
 
     var jsonData = JSON.stringify(data);
-    const url = "https://us9.api.mailchimp.com/3.0/lists/588e445829";
+    const url = `https://us9.api.mailchimp.com/3.0/lists/${listId}`;
     const options = {
         method: "POST",
-        auth: "Sofia:aedf43efa39a81fc1a95dfc48c26d42a-us9"
-    }
+        auth: `anystring:${apiKey}`
+    };
 
 
     const request = https.request(url, options, function(response){
