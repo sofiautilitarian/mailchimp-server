@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mailchimp-server/static/css/main.a79177c3.css",
+    "main.js": "/mailchimp-server/static/js/main.41a3aa07.js",
+    "static/js/453.a3c1d153.chunk.js": "/mailchimp-server/static/js/453.a3c1d153.chunk.js",
+    "index.html": "/mailchimp-server/index.html",
+    "main.a79177c3.css.map": "/mailchimp-server/static/css/main.a79177c3.css.map",
+    "main.41a3aa07.js.map": "/mailchimp-server/static/js/main.41a3aa07.js.map",
+    "453.a3c1d153.chunk.js.map": "/mailchimp-server/static/js/453.a3c1d153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a79177c3.css",
+    "static/js/main.41a3aa07.js"
+  ]
+}
