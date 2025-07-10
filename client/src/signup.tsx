@@ -10,7 +10,7 @@ const Signup: React.FC = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:226',
+            const response = await fetch('https://mailchimp-server-dxva.onrender.com/',
                 {
                     method: 'POST',
                     headers: {
