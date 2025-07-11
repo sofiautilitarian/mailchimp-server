@@ -13,7 +13,7 @@ const apiKey = process.env.MAILCHIMP_API_KEY;
 const listId = process.env.MAILCHIMP_LIST_ID;
 console.log("✅ API Key Loaded:", process.env.MAILCHIMP_API_KEY ? "Yes" : "No");
 console.log("✅ List ID Loaded:", process.env.MAILCHIMP_LIST_ID ? "Yes" : "No");
-
+//bbfe603f78275c5b285e8c65542cc1ac-us9
 // app.get('/', function(req, res){
 //     // https.get(url, function(response){
 //     //      console.log('Server is running');
